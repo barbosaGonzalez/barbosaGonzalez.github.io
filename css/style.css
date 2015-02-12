@@ -111,11 +111,14 @@ img{max-width:100%;}
 .social-icons a.youtube {
 	background-position: -520px top;
 }
-.social-icons a.youtube:hover {
-	background-position: -520px bottom;
-}
 .social-iconst a.youtube:hover {
 	background-position: -520px bottom;
+}
+.social-icons a.instagram {
+	background-position: -560px top;
+}
+.social-iconst a.instagram:hover {
+	background-position: -560px bottom;
 }	
 .social-icons a.email {
 	background-position: -560px top;
