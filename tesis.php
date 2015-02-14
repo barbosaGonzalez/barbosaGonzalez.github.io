@@ -1,5 +1,5 @@
 <?php include("/conexion.php") ?>
-<?php include("vistas/header.php") ?>
+<?php include("/vistas/header.php") ?>
                    	  <li><a href="index.html">Inicio</a></li>
                       <li><a href="about.html">Acerca de</a></li>
                       <li><a href="services.html">Proyectos</a></li>
@@ -120,4 +120,4 @@
 			</div>
 			<div class="clear"> </div>
 			</div>
-<?php include("vistas/footer.php") ?>
+<?php include("/vistas/footer.php") ?>
