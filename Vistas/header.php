@@ -3,13 +3,13 @@
 <head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href="<?php echo base_url('css/style.css')?>" rel="stylesheet" type="text/css"  media="all" />
 		<title>Edsel Barbosa</title>
 		<meta name="author" content="agile6_2" />
 		<meta name="viewport" content="width=device-width,initial-scale=1">
- 		 <link rel="stylesheet" href="css/responsiveslides.css">
+ 		 <link rel="stylesheet" href="<?php echo base_url('css/responsiveslides.css')?>">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script src="js/responsiveslides.min.js"></script>
+  <script src="<?php echo base_url('js/responsiveslides.min.js')?>"></script>
   <script>
     // You can also use "$(window).load(function() {"
     $(function () {
@@ -53,7 +53,7 @@
 				<div class="wrap"> 
 				<div class="sub-header"> 
 					<div class="logo">
-					<a href="index.html"><img src="images/96x96.png" title="logo" /></a>
+					<a href="<?php echo base_url('index.php')?>"><img src="<?php echo base_url('images/96x96.png')?>" title="logo" /></a>
 					</div>
 					<div class="top-nav">
 						<div class="top-nav">
