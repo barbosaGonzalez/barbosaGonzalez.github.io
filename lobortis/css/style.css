@@ -418,38 +418,39 @@ ul.img-sprit li {
 	display: inline-block;
 }
 ul.img-sprit li a {
-	background: url(../images/ftr-icons.png)no-repeat;
+	background: url(../images/social-icons.png)no-repeat;
 	display: block;
-	width: 58px;
-	height: 27px;
+	width: 40px;
+	height: 35px;
 }
-ul.img-sprit li a.foot {
-	background-position: 3px 0px;
+ul.img-sprit li a.gp {
+	background-position: -440px top;
 	opacity: 0.4;
       filter: alpha(opacity=40);
+}   filter: alpha(opacity=40);
 }
 ul.img-sprit li a.fa {
-	background-position: -54px 0px;
+	background-position: 0px top;
 	opacity: 0.4;
       filter: alpha(opacity=40);
 }
 ul.img-sprit li a.tw {
-	background-position: -113px 0px;
+	background-position: -40px top;
 	opacity: 0.4;
       filter: alpha(opacity=40);
 }
 ul.img-sprit li a.in {
-	background-position: -170px 0px;
+	background-position: -360px top;
 	opacity: 0.4;
       filter: alpha(opacity=40);
 }
-ul.img-sprit li a.t {
-	background-position: -228px 0px;
+ul.img-sprit li a.ig {
+	background-position: -600px top;
 	opacity: 0.4;
       filter: alpha(opacity=40);
 }
-ul.img-sprit li a.foot:hover {
-	background-position: 3px 0px;
+ul.img-sprit li a.gp:hover {
+	background-position: -440px bottom;
 	opacity: 1.0;
       filter: alpha(opacity=100); 
       transition: all 0.3s ease; 
@@ -458,7 +459,7 @@ ul.img-sprit li a.foot:hover {
      -o-transition: all 0.3s ease;
 }
 ul.img-sprit li a.fa:hover{
-	background-position: -54px 0px;
+	background-position: 0px bottom;
 	opacity: 1.0;
       filter: alpha(opacity=100); 
       transition: all 0.3s ease; 
@@ -467,7 +468,7 @@ ul.img-sprit li a.fa:hover{
      -o-transition: all 0.3s ease;
 }
 ul.img-sprit li a.tw:hover{
-	background-position: -113px 0px;
+	background-position: -40px bottom;
 	opacity: 1.0;
       filter: alpha(opacity=100); 
       transition: all 0.3s ease; 
@@ -476,7 +477,7 @@ ul.img-sprit li a.tw:hover{
      -o-transition: all 0.3s ease;
 }
 ul.img-sprit li a.in:hover{
-	background-position: -170px 0px;
+	background-position: -360px bottom;
 	opacity: 1.0;
       filter: alpha(opacity=100); 
       transition: all 0.3s ease; 
@@ -484,8 +485,8 @@ ul.img-sprit li a.in:hover{
      -moz-transition: all 0.3s ease;
      -o-transition: all 0.3s ease;
 }
-ul.img-sprit li a.t:hover{
-	background-position: -228px 0px;
+ul.img-sprit li a.ig:hover{
+	background-position: -600px bottom;
 	opacity: 1.0;
       filter: alpha(opacity=100); 
       transition: all 0.3s ease; 
@@ -984,7 +985,7 @@ a.comme:hover {
 	margin: 0px 0px 0px 0px;
 }
 ul.img-sprit li a {
-	width: 53px;
+	width: 40px;
 }
 .about-left h4 {
 	font-size: 1.1em;
@@ -1518,7 +1519,7 @@ span.menu img {
 	height: 59px;
 }
 ul.img-sprit li a {
-	width: 44px;
+	width: 40px;
 }
 .team-grids {
 	float: none;
